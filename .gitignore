@@ -1,0 +1,20 @@
+# Arquivos originais e de trabalho: ficam so na maquina, nao vao para o repositorio
+
+# originais sem tratamento (ja existem versoes prontas em assets/)
+assets/originais/
+
+# videos sem compressao (as versoes usadas sao solo-aplicacao.mp4 e solo-alex.mp4)
+assets/descupinizacao no solo.mp4
+assets/falando sobre o descupunizacao no solo.mp4
+assets/foto do alex.jpeg
+
+# logos intermediarias do tratamento de fundo
+assets/*- Editado.png
+
+# referencia de design de terceiros
+referencia/
+
+# sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
