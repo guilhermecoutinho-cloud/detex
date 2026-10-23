@@ -337,7 +337,7 @@ p{margin:0 0 1rem;}
 .secao__duplo{
   display:grid;gap:22px;margin-bottom:44px;
 }
-.secao__duplo h2{max-width:14ch;}
+.secao__duplo h2{max-width:18ch;}
 .secao__duplo .secao__sub{margin:0;}
 
 /* ============================================================
@@ -438,6 +438,11 @@ p{margin:0 0 1rem;}
   font-size:.97rem;
 }
 .solo__lista li:first-child{border-top:1px solid var(--borda);}
+/* rotulo "Na obra:" / "Na casa pronta:" em amarelo, para bater o olho e achar o seu caso */
+.solo__lista strong{
+  color:var(--amarelo);font-weight:600;
+  font-family:"Oswald",sans-serif;letter-spacing:.5px;
+}
 /* marcador em losango amarelo, no lugar do bullet */
 .solo__lista li::before{
   content:"";position:absolute;left:4px;top:24px;
